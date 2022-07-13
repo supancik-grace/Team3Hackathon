@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Automation Idea Submission Form</title>
+
+    <style type="text/css">
+        .Labels {
+            text-align: left;
+            font-size: 16px;
+            color: #212121;
+            font-weight: bold;
+            margin-left: 5%;
+            font-weight: normal;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        button {
+            background-color: #D52B1E;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            height: 32px;
+            width: 10%;
+            font-size: 16px;
+            margin-top: 16px;
+            align-items: center;
+            margin-left: 45%;
+            font-weight: bold;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        button:hover {
+            background-color: #212121;
+        }
+
+        input {
+            display: block;
+            left: 32px;
+            width: 70%;
+            margin-bottom: 16px;
+            margin-left: 5%;
+            border: none;
+            border-radius: 8px;
+            height: 24px;
+        }
+
+        #container {
+            background-color: #EEEEEE;
+            height: 310px;
+            width: 36%;
+            margin-left: 32%;
+            margin-top: 16px;
+            border: ridge;
+            border-radius: 8px;
+        }
+
+        form {
+            height: 100%;
+            width: 100%;
+        }
+
+        h1 {
+            color: #212121;
+            text-align: center;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            font-size: 32px;
+            font-weight: normal;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 48px;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: lighter;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 40px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+  <form action="results.html" method="GET">
+    
+    <h1>Automation Idea Submission Form</h1>
+    <h2>Please fill out the form below to submit your automation idea.</h2>
+    
+    <div id="container">
+
+        <div>
+            <label class="Labels">First Name</label>
+            <input id="First">
+        </div>
+        
+        <div>
+            <label class="Labels">Last Name</label>
+            <input id="Last">
+        </div>
+
+        <div>
+            <label class="Labels">Teammates (Please include each person's role.)</label>
+            <input id="Team">
+        </div>
+
+        <div>
+            <label class="Labels">Expected Money and/or Time Saved</label>
+            <input id="Impact">
+        </div>
+
+        <div>
+            <label class="Labels">Department</label>
+            <input id="Dept">
+        </div>
+
+    </div>
+
+    <button>Submit</button>
+
+  </form>
+</body>
+</html>
